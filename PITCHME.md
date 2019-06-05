@@ -6,7 +6,7 @@
 
 **Institution:** University of Colorado, Anschutz Medical Campus
 
----
+---?color=#E58537
 @title[Background]
 
 ## Background
