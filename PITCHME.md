@@ -1,48 +1,63 @@
-# Let's Get Started
+# Semi-supervised relation extraction using word vectors and syntax patterns
+**Presenter:** Harrison Pielke-Lombardo
+
+**Advisor:** Lawrence Hunter
+
+**Institution:** University of Colorado, Anschutz Medical Campus
 
 ---
+@title[Background]
 
-## Add Some Slide Candy
-
-![](assets/img/presentation.png)
-
----
-@title[Customize Slide Layout]
+## Background
 
 @snap[west span-50]
-## Customize Slide Content Layout
+- Relation extraction lets us go beyond just using mentions in text
+- Previous approaches
+  - Regular expressions/pattern based approaches. High precision, low recall. Time consuming to construct. Hard to generalize.
+  - Supervised methods. Very little gold standard data available
+  - One-shot learning language models. Have yet to try this
 @snapend
 
 @snap[east span-50]
-![](assets/img/presentation.png)
+![](https://github.com/tuh8888/Dep2Rel/blob/master/resources/dep_example.png)
 @snapend
 
----?color=#E58537
-@title[Add A Little Imagination]
+---
+@title[Method]
+## Method
 
-@snap[north-west]
-#### Add a splash of @color[cyan](**color**) and you are ready to start presenting...
+@snap[west span-50]
+- Dependency path between two entities -> context path
+- Combine word vectors -> context vectors
+- Bootstrapping
+  - Seeds
+  - Clustering -> patterns
+  - Context similarity
 @snapend
 
-@snap[west span-55]
-@ul[spaced text-white]
-- You will be amazed
-- What you can achieve
-- *With a little imagination...*
-- And **GitPitch Markdown**
-@ulend
+@snap[east span-50]
+![](https://github.com/tuh8888/Dep2Rel/blob/master/resources/algorithm.png)
 @snapend
 
-@snap[east span-45]
-@img[shadow](assets/img/conference.png)
+---
+@title[Results]
+## Results
+
+@snap[west span-50]
+
 @snapend
 
----?image=assets/img/presenter.jpg
-
-@snap[north span-100 headline]
-## Now It's Your Turn
+@snap[east span-50]
+![]()
 @snapend
 
-@snap[south span-100 text-06]
-[Click here to jump straight into the interactive feature guides in the GitPitch Docs @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
+---
+@title[Conclusion]
+## Conclusion
+
+@snap[west span-50]
+### Contact
+- Email: Harrison.Pielke-Lombardo@ucdenver.edu
+- GitHub: https://github.com/tuh8888
+- Project: https://github.com/tuh8888/Dep2Rel
 @snapend
