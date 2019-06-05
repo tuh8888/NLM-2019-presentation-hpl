@@ -12,11 +12,13 @@
 ## Background
 
 @snap[west span-50]
+@ul[spaced]
 - Relation extraction lets us go beyond just using mentions in text
 - Previous approaches
   - Regular expressions/pattern based approaches. High precision, low recall. Time consuming to construct. Hard to generalize.
   - Supervised methods. Very little gold standard data available
   - One-shot learning language models. Have yet to try this
+@ulend
 @snapend
 
 @snap[east span-50]
@@ -28,12 +30,14 @@
 ## Method
 
 @snap[west span-50]
+@ul[spaced]
 - Dependency path between two entities -> context path
 - Combine word vectors -> context vectors
 - Bootstrapping
   - Seeds
   - Clustering -> patterns
   - Context similarity
+@ulend
 @snapend
 
 @snap[east span-50]
@@ -45,7 +49,8 @@
 ## Results
 
 @snap[west span-50]
-
+@ul[spaced]
+@ulend
 @snapend
 
 @snap[east span-50]
@@ -58,7 +63,9 @@
 
 @snap[west span-50]
 ### Contact
+@ul[spaced]
 - Email: Harrison.Pielke-Lombardo@ucdenver.edu
 - GitHub: https://github.com/tuh8888
 - Project: https://github.com/tuh8888/Dep2Rel
+@ulend
 @snapend
