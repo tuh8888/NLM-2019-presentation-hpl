@@ -14,11 +14,13 @@
 @snapend
 
 @snap[west span-50]
+@ul[spaced text-white]
 - Relation extraction lets us go beyond just using mentions in text
 - Previous approaches
   - Regular expressions and patterns
   - Supervised methods
-  - One-shot learning language models
+  - One-shot learning l`anguage models
+@ulend
 @snapend
 
 @snap[east span-50]
