@@ -9,10 +9,12 @@
 ---?color=#E58537
 @title[Background]
 
+@snap[north-west]
 ## Background
+@snapend
 
 @snap[west span-50]
-@ul[spaced]
+@ul[spaced text-white]
 - Relation extraction lets us go beyond just using mentions in text
 - Previous approaches
   - Regular expressions/pattern based approaches. High precision, low recall. Time consuming to construct. Hard to generalize.
