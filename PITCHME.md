@@ -10,15 +10,15 @@
 @title[Background]
 
 @snap[north-west]
-## Background
+#### Background
 @snapend
 
 @snap[west span-50]
 - Relation extraction lets us go beyond just using mentions in text
 - Previous approaches
-- Regular expressions/pattern based approaches. High precision, low recall. Time consuming to construct. Hard to generalize.
-- Supervised methods. Very little gold standard data available
-- One-shot learning language models. Have yet to try this
+  - Regular expressions and patterns
+  - Supervised methods
+  - One-shot learning language models
 @snapend
 
 @snap[east span-50]
