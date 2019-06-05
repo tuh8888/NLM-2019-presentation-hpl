@@ -1,4 +1,4 @@
-#### Semi-supervised relation extraction using word vectors and syntax patterns
+### Semi-supervised relation extraction using word vectors and syntax patterns
 
 **Presenter:** Harrison Pielke-Lombardo
 
