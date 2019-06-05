@@ -10,16 +10,16 @@
 @title[Background]
 
 @snap[north-west]
-#### Background
+## Background
 @snapend
 
 @snap[west span-50]
-@ul[spaced text-white]
+@ul[spaced text-white](false)
 - Relation extraction lets us go beyond just using mentions in text
 - Previous approaches
   - Regular expressions and patterns
   - Supervised methods
-  - One-shot learning l`anguage models
+  - One-shot learning language models
 @ulend
 @snapend
 
