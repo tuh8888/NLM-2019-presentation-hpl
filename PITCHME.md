@@ -9,7 +9,7 @@
 ---?color=#E58537
 @title[Background]
 
-@snap[north-west]
+@snap[north span-100]
 ## Background
 @snapend
 
